@@ -1,5 +1,5 @@
 [package]
-authors = ["{{authors}}"]
+authors = ["Tim Weaver <inneralien@gmail.com>"]
 edition = "2018"
 readme = "README.md"
 name = "{{project-name}}"
