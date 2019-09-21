@@ -25,7 +25,7 @@ break main
 # # (the microcontroller SWO pin must be connected to the programmer SWO pin)
 # # 8000000 must match the core clock frequency
 # Use `itmdump -F -f itm.txt` to decode and tail the output
-monitor tpiu config internal itm.txt uart off 16000000 # 16MHz default core freq
+monitor tpiu config internal itm.txt uart off 16000000
 
 # # OR: make the microcontroller SWO pin output compatible with UART (8N1)
 # # 8000000 must match the core clock frequency
